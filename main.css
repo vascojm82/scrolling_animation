@@ -1,0 +1,234 @@
+/* full width/height container */
+#container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+/*container for all images*/
+#top_images{
+    width: 100%;
+    display: table; /* shrink wrap the contents */
+/*    margin: 0 auto;  center via left/right margins */
+    position: fixed;
+    top: 50px;
+    left: 0;
+}
+
+/*original class for WSO2 logo*/
+.logo-images{
+    opacity: 0;
+    transition: all .35s ease-in-out;
+    position: fixed;
+    top: 10%;
+    left: 40%;
+    width: 20%;
+    height: auto;
+}
+/*traslation of WSO2 logo*/
+.logo-image{
+	transform: translate(0,10%);
+	left: 40%;
+    opacity: 1;
+}
+
+
+/*original class for image1*/
+.apple-images1{
+    opacity: 0;
+    transition: all .35s ease-in-out;
+    position: fixed;
+    top: 10%;
+    left: 45%;
+    width: 8%;
+    height: auto;
+}
+
+/*transformation of image1*/
+.apple1{
+    transform: translate(200%,0%);
+    opacity: 1;
+    left: 2%;
+}
+
+/*original class for image2*/
+.apple-images2{
+    opacity: 0;
+    transition: all 1.95s ease-in-out;
+    position: fixed;
+    top: 10%;
+    left: 45%;
+    width: 8%;
+    height: auto;
+}
+
+/*transformation of image2*/
+.apple2{
+    transform: translate(200%,0%);
+    opacity: 1;
+    left: 60%;
+}
+
+/*original class for image3*/
+.apple-images3{
+    opacity: 0;
+    transition: all .85s ease-in-out;
+    position: fixed;
+    top: 10%;
+    left: 45%;
+    width: 8%;
+    height: auto;
+}
+
+/*transformation of image3*/
+.apple3{
+    transform: translate(400%,200%);
+    opacity: 1;
+    left: -2%;
+}
+
+/*original class for image4*/
+.apple-images4{
+    opacity: 0;
+    transition: all 1.45s ease-in-out;
+    position: fixed;
+    top: 10%;
+    left: 45%;
+    width: 8%;
+    height: auto;
+}
+
+/*transformation of image4*/
+.apple4{
+    transform: translate(400%,200%);
+    opacity: 1;
+    left: 30%;
+}
+
+/*Original class for Block ID image*/
+.blockID-images{
+    opacity: 0;
+    transition: all 1.85s ease-in-out;
+    position: fixed;
+    top: 10%;
+    left: 42%;
+    width: 15%;
+    height: auto;
+}
+
+/*First Transform for block ID*/
+.blockID{
+    transform: translate(0,0);
+    opacity: 1;
+	top: 65%;
+    left: 42%;
+}
+
+/*Second transform for block ID*/
+.blockID2{
+    transform: translate(0,0);
+    opacity: 1;
+	top: 10%;
+    left: 42%;
+}
+
+/*original class for logo 2*/
+.logo-images2{
+    opacity: 0;
+    transition: all 1.0s ease-in-out;
+    position: fixed;
+    top: 10%;
+    left: 40%;
+    width: 20%;
+    height: auto;
+}
+
+/*transform of logo2*/
+.logo-image2{
+    transform: translate(0,0);
+    opacity: 1;
+	top: 60%;
+    left: 40%;
+}
+
+/*original class for image 5*/
+.apple-images5{
+    opacity: 0;
+    transition: all 1.0s ease-in-out;
+    position: fixed;
+    top: 60%;
+    left: 45%;
+    width: 8%;
+    height: auto;
+}
+
+/*transform class for image 5*/
+.apple5{
+    transform: translate(0,0);
+	top: 40%;
+    left: 35%;
+    opacity: 1;
+}
+
+/*original class for image 6*/
+.apple-images6{
+    opacity: 0;
+    transition: all 1.35s ease-in-out;
+    position: fixed;
+    top: 60%;
+    left: 45%;
+    width: 8%;
+    height: auto;
+}
+
+/*transform class for image 6*/
+.apple6{
+    transform: translate(0,0);
+    opacity: 1;
+	top: 75%;
+    left: 33%;
+}
+
+/*original class for image 7*/
+.apple-images7{
+    opacity: 0;
+    transition: all 1.70s ease-in-out;
+    position: fixed;
+    top: 60%;
+    left: 45%;
+    width: 8%;
+    height: auto;
+}
+
+/*transform class for image 7*/
+.apple7{
+    transform: translate(0,0);
+    opacity: 1;
+	top: 75%;
+    left: 60%;
+}
+
+/*original class for image 8*/
+.apple-images8{
+    opacity: 0;
+    transition: all 2.05s ease-in-out;
+    position: fixed;
+    top: 60%;
+    left: 45%;
+    width: 8%;
+    height: auto;
+}
+
+/*transform class for image 8*/
+.apple8{
+    transform: translate(0,0);
+    opacity: 1;
+	top: 40%;
+    left: 55%;
+}
+
+
+
+
+
+
